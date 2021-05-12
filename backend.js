@@ -1,10 +1,13 @@
+var counterPlus = 0
+
+
 function buttonCounterPlus() {
-  localStorage.counter++
-  document.getElementById("result").innerHTML = localStorage.counter
+  counterPlus += 1
+  document.getElementById("result").innerHTML = counterPlus
 }
 
 function buttonCounterMinus() {
-  localStorage.counter--
-  document.getElementById("result").innerHTML = localStorage.counter
+  counterMinus -= 1
+  document.getElementById("result").innerHTML = counterPlus
 }
 
